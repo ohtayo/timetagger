@@ -107,4 +107,4 @@ async def webtoken_for_localhost(request):
 
 
 if __name__ == "__main__":
-    asgineer.run(main_handler, "uvicorn", "0.0.0.0:8080", log_level="warning")
+    asgineer.run(main_handler, "uvicorn", "0.0.0.0:80", log_level="warning")
