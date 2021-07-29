@@ -2194,7 +2194,7 @@ class ReportDialog(BaseDialog):
 
         lines = []
         lines.append(
-            "subtotals, tag_groups, duration, date, start, stop, description, user, tags"
+            "\ufeffsubtotals, tag_groups, duration, date, start, stop, description, user, tags"
         )
         lines.append("")
 
